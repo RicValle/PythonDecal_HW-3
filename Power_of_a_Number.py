@@ -4,13 +4,13 @@ y = 3
 
 def raised_to_a_power(x, y):
 
-    result = 1
+    sum = 1
 
     for _ in range(y): #The underline allowing for a throwaway variable was something I found online when I was stuck 
         
-        result *= x 
+        sum *= x 
     
-    return result
+    return sum
 
 result = raised_to_a_power(x, y)
 
